@@ -1,0 +1,19 @@
+[project]
+name = "code-mentor"
+version = "0.1.0"
+description = "LLM-based coding mentor with progressive hints"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit",
+    "ruff",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
