@@ -1,0 +1,21 @@
+.venv/
+
+__pycache__/
+*.py[cod]
+
+.pytest_cache/
+.ruff_cache/
+
+.python-version
+
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# RunBugRun data
+runbugrun.sql
+runbugrun.db
+*.sql.lrz
+*.db-wal
+*.db-shm
