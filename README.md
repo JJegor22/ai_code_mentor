@@ -29,6 +29,4 @@ code-mentor/
 ├── .gitignore
 ├── docs/                           # дизайн-документы
 │   └── ml_system_design_doc.md     # дизайн документ mvp v1
-├── pics/
-│   └── mvp_schema_horizontal.png
 ```
