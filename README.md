@@ -24,9 +24,11 @@ uv run pre-commit install
 ```
 code-mentor/
 ├── README.md
-├── pyproject.toml                  # конфигурация ruff
-├── .pre-commit-config.yaml         # pre-commit hooks
+├── pyproject.toml                          # конфигурация ruff
+├── .pre-commit-config.yaml                 # pre-commit hooks
 ├── .gitignore
-├── docs/                           # дизайн-документы
-│   └── ml_system_design_doc.md     # дизайн документ mvp v1
+├── docs/                                   # дизайн-документы
+│   └── ml_system_design_doc.md             # дизайн документ mvp v1
+├── notebooks/                              # jupyter-ноутбуки
+│   └── runbugrun_eda_code_mentor.ipynb     # EDA RunBugRun
 ```
